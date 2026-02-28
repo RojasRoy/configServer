@@ -10,7 +10,7 @@ spring:
       server:
         git:
           uri: https://github.com/RojasRoy/configServer.git
-          searchPath: config-data
+          search-Paths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
 
